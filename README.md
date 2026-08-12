@@ -47,43 +47,14 @@ Todos los archivos se encuentran en la carpeta `/datasets`.
 
 ## ▶️ Cómo ejecutar el notebook
 
-
-### Jupyter Notebook local
-
-```bash
-pip install pandas numpy matplotlib seaborn scipy
-jupyter notebook "S7 Version-Estudiante-Project-ConnectaTel.ipynb"
-```
-
-## 🔁 Guía de reproducción
-
-Para reproducir el análisis completo desde cero:
-
-1. **Clona el repositorio**
-   ```bash
-   git clone https://github.com/<tu-usuario>/proyecto-sprint7-connectatel.git
-   cd proyecto-sprint7-connectatel
-   ```
-
-2. **Instala las dependencias**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Verifica que los datasets estén disponibles** en la carpeta `/datasets`
-
-4. **Ejecuta el notebook de inicio a fin**, en orden, sin saltar celdas — cada sección depende de las transformaciones generadas en las anteriores (ej. `user_profile` se construye a partir de `usage_agg`, que a su vez depende de la limpieza inicial de `usage`).
-
-5. **Revisa las salidas**: cada sección imprime o grafica los resultados intermedios (conteos, distribuciones, outliers) que sirven de base para el insight ejecutivo final.
+Abre el archivo S7 Version-Estudiante-Project-ConnectaTel.ipynb.
+Asegúrate que los datasets corran.
+Descarga las librerías necesarias pandas, seaborn, matplotlib.
+Reproduce las celdas en orden.
 
 ## 📂 Estructura del repositorio
 
 ```
-├── datasets/
-│   ├── plans.csv
-│   ├── users_latam.csv
-│   └── usage.csv
 ├── S7 Version-Estudiante-Project-ConnectaTel.ipynb
 ├── README.md
-└── requirements.txt
 ```
