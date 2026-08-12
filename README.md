@@ -45,11 +45,14 @@ Todos los archivos se encuentran en la carpeta `/datasets`.
 9. **Insight ejecutivo**
    Traducción de los hallazgos técnicos en conclusiones de negocio: calidad de los datos, comportamiento por segmento, segmentos más valiosos, implicaciones de los outliers y recomendaciones sobre la oferta de planes.
 
-## ▶️ Cómo ejecutar el notebook
+## Cómo ejecutar el notebook
 
-Abre el archivo S7 Version-Estudiante-Project-ConnectaTel.ipynb.
-Asegúrate que los datasets corran.
-Descarga las librerías necesarias pandas, seaborn, matplotlib.
+Abre el archivo S7 Version-Estudiante-Project-ConnectaTel.ipynb.  
+
+Asegúrate que los datasets corran.  
+
+Descarga las librerías necesarias pandas, seaborn, matplotlib.  
+
 Reproduce las celdas en orden.
 
 ## 📂 Estructura del repositorio
