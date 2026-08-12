@@ -7,8 +7,10 @@ Este proyecto realiza un análisis exploratorio de datos sobre el comportamiento
 
 ## Datasets utilizados
 
-| `plans.csv` | Información sobre los planes disponibles (Básico, Premium, etc.) |. 
-| `users_latam.csv` | Datos demográficos de los usuarios: edad, ciudad, fecha de registro (`reg_date`), plan contratado |. 
+| `plans.csv` | Información sobre los planes disponibles (Básico, Premium, etc.) |
+
+| `users_latam.csv` | Datos demográficos de los usuarios: edad, ciudad, fecha de registro (`reg_date`), plan contratado |
+
 | `usage.csv` | Registro histórico de uso por usuario: tipo de evento (`type`: llamada/mensaje), duración (`duration`), fecha |
 
 Todos los archivos se encuentran en la carpeta `/datasets`.
